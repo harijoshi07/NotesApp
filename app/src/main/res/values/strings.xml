@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">NotesApp</string>
+    <string name="sign_out_title">Sign out?\n</string>
+    <string name="sign_out_description">You\'ll have to sign in again to see your notes.</string>
+    <string name="cancel">Cancel\n</string>
+    <string name="sign_out">Sign Out\n</string>
+    <string name="delete_account_title">Delete account?</string>
+    <string name="delete_account_description">You\'ll lose all your notes and your account will be deleted permanently.</string>
+    <string name="delete_account">Delete account</string>
 </resources>
