@@ -1,2 +1,2 @@
 ## Notes App
---It is a learning curve for learning Firebase authentication and Fire store
+--It is a learning curve for Firebase authentication and Fire store
