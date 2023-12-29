@@ -1,4 +1,4 @@
-package com.example.notesapp
+package com.example.notesapp.navigation
 
 object Routes {
     const val NOTES_LIST_SCREEN = "NotesListScreen"

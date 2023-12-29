@@ -1,12 +1,11 @@
 package com.example.notesapp.screen.viewmodel
 
-import com.example.notesapp.Routes
+import com.example.notesapp.navigation.Routes
 import com.example.notesapp.model.Note
 import com.example.notesapp.model.service.AccountService
 import com.example.notesapp.model.service.StorageService
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.collect
 import javax.inject.Inject
 
 @HiltViewModel
