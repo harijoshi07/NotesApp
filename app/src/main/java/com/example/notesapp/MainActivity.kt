@@ -17,6 +17,7 @@ import com.example.notesapp.screen.screens.NotesListScreen
 import com.example.notesapp.screen.screens.SignInScreen
 import com.example.notesapp.screen.screens.SignUpScreen
 import com.example.notesapp.ui.theme.NotesAppTheme
+import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.BuildConfig
@@ -27,6 +28,9 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        FirebaseApp.initializeApp(this)
+       // configureFirebaseServices()
         setContent {
             NotesAppTheme {
                 // A surface container using the 'background' color from the theme

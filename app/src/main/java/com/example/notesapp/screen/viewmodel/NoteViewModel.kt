@@ -44,9 +44,9 @@ class NoteViewModel @Inject constructor(
             } else {
                 storageService.updateNote(note.value)
             }
-
-            popUpScreen()
         }
+        popUpScreen()
+
     }
 
     fun deleteNote(popUpScreen: () -> Unit) {
